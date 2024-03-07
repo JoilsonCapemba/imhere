@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 import { styles } from './style';
 
 export function Participant(){
@@ -7,6 +7,10 @@ export function Participant(){
       <Text style={styles.name}>
         Participante 1
       </Text>
+
+      <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonAdd}> - </Text>
+      </TouchableOpacity>
     </View>
   )
 }
