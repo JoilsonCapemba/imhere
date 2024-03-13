@@ -5,7 +5,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#111',
     padding: 24,
-    marginTop: 24,
   },
 
   eventName:{
@@ -13,6 +12,7 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 5,
+    marginTop: 10
   },
 
   eventDate:{
@@ -57,5 +57,9 @@ export const styles = StyleSheet.create({
   form:{
     flexDirection: 'row',
     marginBottom: 10
+  },
+  ListEmpty:{
+    color: '#fff',
+    fontSize: 14
   }
 })
